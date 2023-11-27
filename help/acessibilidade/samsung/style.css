@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: #E6E6FA;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.titlePrint{
+    display: flex;
+    align-items: center;
+}
+.voltar{
+    background-color: #9370DB;
+    position: absolute;
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #9370DB;
+    color: #ffff;
+    padding: 0.5rem;
+}
+.descriptionHelp{
+    margin: 1.5rem;
+}
+h3{
+    margin-left: 2rem;
+    color: #9370DB;
+    border-bottom: #9370DB 0.1rem solid;
+}
+div{
+    text-align: center;
+}
+img{
+    margin: 2rem 0 2rem 0;
+    border: #9370DB 0.5rem solid;
+    height: 65rem;
+    width: 33rem;
+    border-radius: 0.5rem;
+}
+.proximaTela{
+    background-color: #9370DB;
+    color: #ffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.android, .ios{
+    margin: 2rem 30rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxText{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6.5rem 25rem 0;
+    padding: 1.5rem;
+    height: 20rem;
+    border: 1px solid #9370DB;
+    border-radius: 1rem;
+    background-color: #9370DB;
+    color: #ffff;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: #E6E6FA;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+.titlePrint{
+    display: flex;
+    align-items: center;
+}
+.voltar{
+    background-color: #9370DB;
+    position: absolute;
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #9370DB;
+    color: #ffff;
+    padding: 0.5rem;
+}
+p{
+    margin: 1.5rem;
+}
+h3{
+    margin-left: 2rem;
+    color: #9370DB;
+    border-bottom: #9370DB 0.1rem solid;
+}
+div{
+    text-align: center;
+}
+img{
+    margin: 2rem 0 2rem 0;
+    border: #9370DB 0.5rem solid;
+}
+footer{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem
+}
+.proximaTela{
+    background-color: #9370DB;
+    color: #ffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}

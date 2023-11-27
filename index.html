@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto TCC</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <figure>
+        <img src="./assets/logo1.svg" alt="Logo" class="logo">
+        <figcaption>Ajuda do dia</figcaption>
+    </figure>
+    <div class="welcome">
+        <h1>Olá, Seja Bem Vindo!!</h1>
+        <h2>Em que podemos lhe ajudar?</h2>
+    </div>
+</header>
+<main>
+    <section class="info" id="info">
+    <h3 class="infoTitle">
+        Saiba mais sobre o que está acessando:
+    </h3>
+    <div class="descritionPage">
+    <p class="TextDescritionPage">
+        Nosso objetivo é fornecer ajuda para situações/atividades cotidianas,
+        feitas na internet, para pessoas de todas as idades, com dificuldade
+        de lidar com tecnologia. Portanto, sinta-se a vontade em nosso site,
+        estamos aqui para lhe ajudar!
+    </p>
+    <img src="./assets/imgHelp.svg" alt="ImageConfusedPeople" class="ImageConfusedPeople">
+    </div>
+    <div class="moreHelp">
+    <p class="textMoreHelp"> Temos uma caixa no fim do site para que envie sugestões de mais caixas de ajuda,
+        para inserirmos.</p>
+        <img src="./assets/ampliar2.svg" alt="maximize" class="enlargeButton" title="Ampliar" onclick="ampliar()">
+    </div>
+    </section>
+    <nav>
+        <input class="searchBox" type="text" placeholder="Digite o que deseja pesquisar">
+    </nav>
+    <div class="contentBoxHelp">
+        <a href="./help/teste.html" target="_blank" class="boxTextHelp">
+            <div class="textHelp">
+            <img src="./assets/email.svg" alt="iconEmail" class="icon">Enviar e-mail
+            </div>
+        </a>
+        <button class="boxTextHelp" id="openModalPrint">
+            <div class="textHelp">
+            <img src="./assets/print.svg" alt="iconPrint" class="icon">Tirar print
+            </div>
+        </button>
+        <button class="boxTextHelp" id="openModalCache">
+            <div class="textHelp">
+            <img src="./assets/cache.svg" alt="iconCache" class="icon">Limpar cache
+            </div>
+        </a>
+        </button>
+        <a href="./help/baixarApp/index.html" class="boxTextHelp">
+            <div class="textHelp">
+                <img src="./assets/app.svg" alt="iconApp" class="icon">Baixar aplicativos/App
+            </div>
+        </a>
+        <button class="boxTextHelp" id="openModalAccessibility">
+            <div class="textHelp">
+            <img src="./assets/acessibilidade.svg" alt="iconAccessibility" class="icon">Desativar modo de acessibilidade no celular
+            </div>
+        </button>  
+    </div>
+        
+        
+    
+</main>
+    <dialog class="modalPrint">
+    <div class="boxOptionModal">
+        <h4>Qual Plataforma?</h4>
+        <div class="options">
+            <a href="./help/tirarPrint/celular/index.html" class="linkOption1">Celular</a>
+            <a href="./help/tirarPrint/computador/index.html" class="linkOption2">Computador</a>
+        </div>
+        <img src="./assets/close.svg" alt="buttonClose" class="buttonClosePrint">
+    </div>
+    </dialog>
+    
+    <dialog class="modalCache">
+    <div class="boxOptionModal">
+        <h4>Qual navegador?</h4>
+        <div class="options">
+            <a href="#" target="_blank" class="linkOption1">Firefox</a>
+            <a href="#" class="linkOption2">Google</a>
+        </div>
+        <img src="./assets/close.svg"  title="Botão de fechar" alt="buttonClose" class="buttonCloseCache">
+    </div>
+    </dialog>
+
+    <dialog class="modalAccessibility">
+        <div class="boxOptionModal">
+            <h4>Qual celular?</h4>
+            <div class="options">
+                <a href="./help/acessibilidade/samsung/index.html" target="_blank" class="linkOption1">Samsung</a>
+                <a href="./help/acessibilidade/motorola/index.html" class="linkOption2">Motorola</a>
+            </div>
+            <img src="./assets/close.svg"  title="Botão de fechar" alt="buttonClose" class="buttonCloseAccessibility">
+        </div>
+        </dialog>
+<footer>
+    <section class="devs">
+        <h3>Desenvolvido por:</h3>
+        <div class="devRafael">
+            Rafael Vitor de Oliveira
+            </p>
+            <a href="https://github.com/Rafael-Vitor-Oliveira" target="_blank"><img src="./assets/github.svg" alt="githubRafael" class="iconGithub"></a>
+        </div>
+    
+    </section>
+    <button class="suggestionBox">Clique aqui pra enviar sua sugestão</button>
+</footer>
+</body>
+<script src="./script.js"></script>
+</html>
