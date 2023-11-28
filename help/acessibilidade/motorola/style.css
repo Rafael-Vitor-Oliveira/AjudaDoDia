@@ -56,11 +56,16 @@ img{
     border-radius: 2rem;
     text-align: center;
 }
-.android, .ios{
-    margin: 2rem 30rem 0 0;
+.configuracoes, .acessibilidade{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.acessibilidadeDesativar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
 }
 .boxText{
     display: flex;
@@ -74,4 +79,17 @@ img{
     border-radius: 1rem;
     background-color: #9370DB;
     color: #ffff;
+}
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.proximaTela{
+    background-color: #9370DB;
+    color: #ffff;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
 }
