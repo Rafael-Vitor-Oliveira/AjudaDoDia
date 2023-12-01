@@ -45,7 +45,7 @@ img{
     margin: 2rem 0 2rem 0;
     border: #9370DB 0.5rem solid;
     height: 65rem;
-    width: 33rem;
+    width: 90rem;
     border-radius: 0.5rem;
 }
 .proximaTela{
@@ -56,12 +56,14 @@ img{
     border-radius: 2rem;
     text-align: center;
 }
-.configuracoes, .acessibilidade{
+.limparDadosNavegacao, .telaDadosNavegacao{
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.acessibilidadeDesativar{
+.limparCache{
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
