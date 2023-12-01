@@ -227,8 +227,8 @@ dialog::backdrop{
     cursor: pointer;
 }
 .modalSuggestion{
-    height: 400px;
-    width: 400px;
+    height: 550px;
+    width: 500px;
 }
 .BoxTextarea{
     display: flex;
@@ -236,7 +236,7 @@ dialog::backdrop{
 }
 textarea{
     margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 8px;
     border: none;
     resize: none;
@@ -244,16 +244,25 @@ textarea{
 textarea::placeholder{
     text-align: center;
 }
-.BoxFile{
-    text-align: center;
-}
 input[type=file]{
-    margin: 10px;
-    color: #FFFFFF;
-    border-radius: 3px;
-    background-color: #9370DB;
+    display: none;
+}
+.picture{
+    margin:  10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6FA;
+    color: #8A2BE2;
+    border: 2px dashed #9370DB;
     cursor: pointer;
-    border: 2px solid #D8BFD8;
+    width: 420px;
+    aspect-ratio: 16/6;
+    transition: color 200ms ease-in-out;
+}
+.picture:hover{
+    color: #7B68EE;
+    border: 2px dashed currentColor;
 }
 footer{
     position: relative;
