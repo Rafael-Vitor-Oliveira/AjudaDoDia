@@ -220,11 +220,40 @@ dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.650);
     backdrop-filter: blur(2px);
 }
-.buttonClosePrint, .buttonCloseCache, .buttonCloseAccessibility{
+.buttonClosePrint, .buttonCloseCache, .buttonCloseAccessibility, .buttonCloseSuggestion, .buttonSendSuggestion{
     width: 45px;
     align-items: end;
     margin-top: 10px;
     cursor: pointer;
+}
+.modalSuggestion{
+    height: 400px;
+    width: 400px;
+}
+.BoxTextarea{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+}
+textarea::placeholder{
+    text-align: center;
+}
+.BoxFile{
+    text-align: center;
+}
+input[type=file]{
+    margin: 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    background-color: #9370DB;
+    cursor: pointer;
+    border: 2px solid #D8BFD8;
 }
 footer{
     position: relative;
@@ -237,6 +266,12 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.footerSuggestion{
+    background-color: #9370DB;
+    background-image: none;
+    box-shadow: none;
+    margin: none;
 }
 .people{
     display: flex;
