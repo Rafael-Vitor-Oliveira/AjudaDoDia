@@ -109,12 +109,15 @@
         <div class="boxSuggestion">
             <h4>Deixe sua sugestão</h4>
             <div class="BoxTextarea">
-                <textarea name="" id="" cols="60" rows="10" placeholder="Descreva sua sugestão"></textarea>
+                <textarea name="" id="suggestionTxt" class="suggestionTxt" cols="60" rows="10" placeholder="Descreva sua sugestão"></textarea>
             </div>
-            <label class="picture">
-                <input type="file" class="pictureInput">
-                <span class="pictureImage">Selecionar imagem</span>
+            <label class="picture" for="pictureInputID">
+                <span class="pictureImage"></span>
             </label>
+            <input type="file" id="pictureInputID" name="pictureInput" class="pictureInput" accept="image/*">
+            <div class="boxDeletar">
+                <button class="deletarImagem">Deletar imagem</button>
+            </div>
         </div>
         <footer class="footerSuggestion">
         <img src="./assets/close.svg"  title="Botão de fechar" alt="buttonClose" class="buttonCloseSuggestion">

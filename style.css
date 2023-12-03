@@ -227,7 +227,7 @@ dialog::backdrop{
     cursor: pointer;
 }
 .modalSuggestion{
-    height: 550px;
+    height: 570px;
     width: 500px;
 }
 .BoxTextarea{
@@ -300,5 +300,24 @@ footer{
     border-radius: 3px;
     background-color: #9370DB;
     cursor: pointer;
+    border: 2px solid #D8BFD8;
+}
+.pictureImg{
+    max-width: 100%;
+}
+.boxDeletar{
+    text-align: center;
+}
+.deletarImagem{
+    cursor: pointer;
+    background-color: #9370DB;
+    border: 2px solid #9370DB;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+}
+.deletarImagem:hover{
+    transform: scale(1.1);
     border: 2px solid #D8BFD8;
 }
