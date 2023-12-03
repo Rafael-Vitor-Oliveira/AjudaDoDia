@@ -52,7 +52,7 @@
 header{
     border-bottom-left-radius: 55px;
     height: 150px;
-    max-width: 100vw;
+    width: 100%;
     background-image: linear-gradient(#B0C4DE, #4169E1);
     display: flex;
     padding-left: 20px;
@@ -264,7 +264,7 @@ input[type=file]{
     color: #7B68EE;
     border: 2px dashed currentColor;
 }
-footer{
+.footerMain{
     position: relative;
     padding: 12px 12px 0 12px;
     margin-top: 50px;
@@ -277,10 +277,13 @@ footer{
     align-items: center;
 }
 .footerSuggestion{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #9370DB;
-    background-image: none;
-    box-shadow: none;
-    margin: none;
 }
 .people{
     display: flex;
