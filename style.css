@@ -6,9 +6,10 @@
 .info{
     background-color: #9370DB;
     color: #FFFFFF;
+    border: 2px dashed #D8BFD8;
     border-radius: 4px;
-    width: 550px;
-    height: 300px;
+    width: 700px;
+    height: 365px;
     margin-bottom: 50px;
 }
 .infoZoom{
@@ -45,23 +46,23 @@
     width: 87%;
 }
 .enlargeButton{
-    width: 10%;
     padding: 10px;
+    width: 10%;
     cursor: pointer;
 }
 header{
     border-bottom-left-radius: 55px;
     height: 150px;
     width: 100%;
-    background-image: linear-gradient(#B0C4DE, #4169E1);
+    background-image: linear-gradient(#4B0082, #7B68EE);
     display: flex;
     padding-left: 20px;
-    box-shadow: 5px 5px 20px #4682B4;
     margin-bottom: 50px;
 }
 body{
-    background-color: #191970;
+    background-color: #7B68EE;
     height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 .logo{
     width: 100px;
@@ -84,7 +85,7 @@ figcaption:hover{
     display: flex;
     flex-direction: column;
     margin: 18px 5px 5px 5px;
-    color: #E0FFFF;
+    color: #D8BFD8;
     text-shadow: 2px 2px 2px #000000;
 }
 h1{
@@ -105,7 +106,7 @@ main{
     height: 40px;
     text-align: center;
     margin: 0 50px 50px 50px;
-    background-color: #4169E1;
+    background-color: #4B0082;
     border: 2px solid #B0C4DE;
     border-radius: 10px;
     outline: 0;
@@ -161,12 +162,12 @@ main{
 }
 h4{
     padding-top: 10px;
-    background-color: #4682B4;
+    background-color: #9370DB;
     height: 40px;
     width: 100%;
     text-align: center;
     justify-content: center;
-    color: #ffff;
+    color: #E6E6FA;
     text-shadow: 1px 1px 2px #000000;
     font-weight: 700;
     font-size: 18px;
@@ -183,9 +184,9 @@ h4{
     font-weight: 700;
     width: 140px;
     height: 50px;
-    background-color: #4682B4;
+    background-color: #9370DB;
     text-decoration: none;
-    color: #ffff;
+    color: #E6E6FA;
     text-shadow: 1px 1px 2px #000000;
     font-size: 20px;
     align-items: center;
@@ -193,10 +194,10 @@ h4{
 }
 .linkOption2{
     display: flex;
-    border: 1px solid #4682B4;
+    border: 2px solid #9370DB;
     background-color: #E6E6FA;
-    color: #4682B4;
-    width: 140px;
+    color: #9370DB;
+    width: 145px;
     height: 50px;
     text-align: center;
     font-weight: 700;
@@ -212,7 +213,7 @@ dialog{
     height: 190px;
     width: 400px;
     border: 1px solid #000000;
-    background-image: linear-gradient( #E6E6FA, #B0E0E6);
+    background: #E6E6FA;
     border-radius: 10px;
     box-shadow: 3px 3px 5px #000000;
 }
@@ -269,14 +270,14 @@ input[type=file]{
     padding: 12px 12px 0 12px;
     margin-top: 50px;
     width: 100%;
-    background-image: linear-gradient(#191970, #4682B4);
-    box-shadow: 1px 1px 5px #000080;
-    color: #FFFFFF;
+    background: #4B0082;
+    color: #E6E6FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .footerSuggestion{
+    padding: 5px 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -319,6 +320,7 @@ input[type=file]{
     border-radius: 5px;
     width: 150px;
     height: 35px;
+    transition: 250ms;
 }
 .deletarImagem:hover{
     transform: scale(1.1);
