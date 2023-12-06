@@ -290,6 +290,9 @@ input[type=file]{
     align-items: center;
     background-color: #9370DB;
 }
+.devs h3{
+    font-size: 1.6rem;
+}
 .people{
     display: flex;
     align-items: center;
