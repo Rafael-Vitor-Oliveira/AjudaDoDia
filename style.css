@@ -3,61 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    font-size: 62.5%;
+}
 .info{
     background-color: #9370DB;
     color: #FFFFFF;
-    border: 2px dashed #D8BFD8;
-    border-radius: 4px;
-    width: 700px;
-    height: 365px;
-    margin-bottom: 50px;
+    border: 0.3rem dashed #D8BFD8;
+    border-radius: 0.4rem;
+    width: 70rem;
+    height: 36.5rem;
+    margin-bottom: 5rem;
 }
 .infoZoom{
     transform: scale(1.2);
-    margin: 50px;
+    margin: 5rem;
 }
 .infoTitle{
-    padding: 15px;
-    border-bottom: 1px solid #D8BFD8;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    border-bottom: 0.1rem solid #D8BFD8;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 .descritionPage{
     display: flex;
-    border-bottom: 1px solid #D8BFD8;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom: 0.1rem solid #D8BFD8;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 .TextDescritionPage{
-    padding: 10px 10px 10px 15px;
+    padding: 1rem 1rem 1rem 1.5rem;
     width: 70%;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .ImageConfusedPeople{
-    padding: 10px 10px 10px 0;
+    padding: 1rem 1rem 1rem 0;
     width: 30%;
 }
 .moreHelp{
     display: flex;
 }
 .textMoreHelp{
-    padding: 10px;
-    font-size: 18px;
+    padding: 1rem;
+    font-size: 1.8rem;
     width: 87%;
 }
 .enlargeButton{
-    padding: 10px;
+    padding: 1rem;
     width: 10%;
     cursor: pointer;
 }
 header{
-    border-bottom-left-radius: 55px;
-    height: 150px;
+    border-bottom-left-radius: 5.5rem;
+    height: 15rem;
     width: 100%;
     background-image: linear-gradient(#4B0082, #7B68EE);
     display: flex;
-    padding-left: 20px;
-    margin-bottom: 50px;
+    padding-left: 2rem;
+    margin-bottom: 5rem;
 }
 body{
     background-color: #7B68EE;
@@ -65,17 +69,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .logo{
-    width: 100px;
+    width: 10rem;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 figcaption{
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #ffff;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000000;
     transition: 0.3s;
 }
 figcaption:hover{
@@ -84,15 +88,15 @@ figcaption:hover{
 .welcome{
     display: flex;
     flex-direction: column;
-    margin: 18px 5px 5px 5px;
+    margin: 1.8rem 0.5rem 0.5rem 0.5rem;
     color: #D8BFD8;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000000;
 }
 h1{
-    font-size: 30px;
+    font-size: 3rem;
 }
 h2{
-    font-size: 22px;
+    font-size: 2.2rem;
     text-align: center;
 }
 main{
@@ -102,42 +106,42 @@ main{
     align-items: center;
 }
 .searchBox{
-    width: 550px;
-    height: 40px;
+    width: 55rem;
+    height: 4rem;
     text-align: center;
-    margin: 0 50px 50px 50px;
+    margin: 0 5rem 5rem 5rem;
     background-color: #4B0082;
-    border: 2px solid #B0C4DE;
-    border-radius: 10px;
+    border: 0.2rem solid #B0C4DE;
+    border-radius: 1rem;
     outline: 0;
     color: #FFFFFF;
     font-weight: 550;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .searchBox::placeholder{
     color: #FFFFFF;
 }
 .icon{
-    width: 50px;
+    width: 5rem;
 }
 .contentBoxHelp{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5rem;
 }
 .boxTextHelp{
     display: flex;
     flex-direction: column;
-    padding: 25px;
-    width: 450px;
-    border: 2px solid #6A5ACD;
-    border-radius: 10px;
+    padding: 2.5rem;
+    width: 45rem;
+    border: 0.2rem solid #6A5ACD;
+    border-radius: 1rem;
     background-color: #9370DB;
     text-decoration: none;
     color: #ffff;
     font-weight: 550;
-    box-shadow: 2px 1px 5px #4B0082;
-    font-size: 20px;
+    box-shadow: 0.2rem 0.1rem 0.5rem #4B0082;
+    font-size: 2rem;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -150,7 +154,7 @@ main{
 }
 .textHelp{
     display: flex;
-   gap: 15px;
+   gap: 1.5rem;
    align-items: center;
 }
 .boxOptionModal{
@@ -158,51 +162,51 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 h4{
-    padding-top: 10px;
+    padding-top: 1rem;
     background-color: #9370DB;
-    height: 40px;
+    height: 4rem;
     width: 100%;
     text-align: center;
     justify-content: center;
     color: #E6E6FA;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 0.1rem 0.1rem 0.2rem #000000;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .options{
-    margin-top: 30px;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 }
 .linkOption1{
     display: flex;
     font-weight: 700;
-    width: 140px;
-    height: 50px;
+    width: 14rem;
+    height: 5rem;
     background-color: #9370DB;
     text-decoration: none;
     color: #E6E6FA;
-    text-shadow: 1px 1px 2px #000000;
-    font-size: 20px;
+    text-shadow: 0.1rem 0.1rem 0.2rem #000000;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
 }
 .linkOption2{
     display: flex;
-    border: 2px solid #9370DB;
+    border: 0.2rem solid #9370DB;
     background-color: #E6E6FA;
     color: #9370DB;
-    width: 145px;
-    height: 50px;
+    width: 14.5rem;
+    height: 5rem;
     text-align: center;
     font-weight: 700;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2rem;
     align-items: center;
     justify-content: center;
 }
@@ -210,35 +214,35 @@ dialog{
     margin: auto;
     padding: 0;
     justify-content: center;
-    height: 190px;
-    width: 400px;
-    border: 1px solid #000000;
+    height: 19rem;
+    width: 40rem;
+    border: 0.1rem solid #000000;
     background: #E6E6FA;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px #000000;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem #000000;
 }
 dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.650);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0.2rem);
 }
 .buttonClosePrint, .buttonCloseCache, .buttonCloseAccessibility, .buttonCloseSuggestion, .buttonSendSuggestion{
-    width: 45px;
+    width: 4.5rem;
     align-items: end;
-    margin-top: 10px;
+    margin-top: 1rem;
     cursor: pointer;
 }
 .modalSuggestion{
-    height: 570px;
-    width: 500px;
+    height: 57rem;
+    width: 50rem;
 }
 .BoxTextarea{
     display: flex;
     justify-content: center;
 }
 textarea{
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
     border: none;
     resize: none;
 }
@@ -249,26 +253,26 @@ input[type=file]{
     display: none;
 }
 .picture{
-    margin:  10px auto;
+    margin:  1rem auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #E6E6FA;
     color: #8A2BE2;
-    border: 2px dashed #9370DB;
+    border: 0.2rem dashed #9370DB;
     cursor: pointer;
-    width: 420px;
+    width: 42rem;
     aspect-ratio: 16/6;
     transition: color 200ms ease-in-out;
 }
 .picture:hover{
     color: #7B68EE;
-    border: 2px dashed currentColor;
+    border: 0.2rem dashed currentColor;
 }
 .footerMain{
     position: relative;
-    padding: 12px 12px 0 12px;
-    margin-top: 50px;
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    margin-top: 5rem;
     width: 100%;
     background: #4B0082;
     color: #E6E6FA;
@@ -277,7 +281,7 @@ input[type=file]{
     align-items: center;
 }
 .footerSuggestion{
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -289,22 +293,22 @@ input[type=file]{
 .people{
     display: flex;
     align-items: center;
-    font-size: 17px;
-    margin-top: 3px;
+    font-size: 1.7rem;
+    margin-top: 0.3rem;
 }
 .iconGithub{
-    width: 25px;
-    margin-left: 10px;
+    width: 2.5rem;
+    margin-left: 1rem;
     cursor: pointer;
 }
 .suggestionBox{
-    width: 200px;
-    height: 50px;
+    width: 20rem;
+    height: 5rem;
     color: #FFFFFF;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     background-color: #9370DB;
     cursor: pointer;
-    border: 2px solid #D8BFD8;
+    border: 0.2rem solid #D8BFD8;
 }
 .pictureImg{
     max-width: 100%;
@@ -315,14 +319,14 @@ input[type=file]{
 .deletarImagem{
     cursor: pointer;
     background-color: #9370DB;
-    border: 2px solid #9370DB;
+    border: 0.2rem solid #9370DB;
     color: #FFFFFF;
-    border-radius: 5px;
-    width: 150px;
-    height: 35px;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 3.5rem;
     transition: 250ms;
 }
 .deletarImagem:hover{
     transform: scale(1.1);
-    border: 2px solid #D8BFD8;
+    border: 0.2rem solid #D8BFD8;
 }
