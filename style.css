@@ -247,12 +247,14 @@ textarea{
     resize: none;
 }
 textarea::placeholder{
+    font-size: 1.4rem;
     text-align: center;
 }
 input[type=file]{
     display: none;
 }
 .picture{
+    font-size: 1.4rem;
     margin:  1rem auto;
     display: flex;
     align-items: center;
@@ -320,6 +322,7 @@ input[type=file]{
     text-align: center;
 }
 .deletarImagem{
+    font-size: 1.4rem;
     cursor: pointer;
     background-color: #9370DB;
     border: 0.2rem solid #9370DB;
