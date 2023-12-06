@@ -36,7 +36,7 @@ p{
 h3{
     margin-left: 2rem;
     color: #9370DB;
-    border-bottom: #9370DB 0.5rem solid;
+    border-bottom: #9370DB 0.5rem double;
 }
 div{
     text-align: center;
