@@ -55,9 +55,9 @@
     cursor: pointer;
 }
 header{
+    width: 100%;
     border-bottom-left-radius: 5.5rem;
     height: 15rem;
-    width: 100%;
     background-image: linear-gradient(#4B0082, #7B68EE);
     display: flex;
     padding-left: 2rem;
@@ -272,10 +272,9 @@ input[type=file]{
     border: 0.2rem dashed currentColor;
 }
 .footerMain{
-    position: relative;
+    width: 100%;
     padding: 1.2rem 1.2rem 0 1.2rem;
     margin-top: 5rem;
-    width: 100%;
     background: #4B0082;
     color: #E6E6FA;
     display: flex;
